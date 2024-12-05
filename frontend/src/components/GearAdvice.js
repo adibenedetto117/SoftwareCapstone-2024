@@ -7,22 +7,44 @@ const AdviceContainer = styled.div`
   background-color: #f9f9f9;
   border-left: 5px solid #1E90FF;
   border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+`;
+
+const AdviceTitle = styled.h2`
+  font-size: 1.8rem;
+  color: #264653;
+  margin-bottom: 15px;
+`;
+
+const AdviceParagraph = styled.p`
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+`;
+
+const HighlightText = styled.span`
+  font-weight: bold;
+  color: #1E90FF;
 `;
 
 const GearAdvice = () => (
   <AdviceContainer>
-    <h2>Finding the Right Gear Can Be Tough</h2>
-    <p>
-      Choosing the right gear for a triathlon is often overwhelming. With so many options available, it’s hard to know where to start. 
-      The right gear can make all the difference in your performance and comfort during training and on race day. 
-    </p>
-    <p>
-      That's why we've built this site to make the process easier for you. We search through multiple websites at once, so you can compare 
-      prices and specifications all in one place. Our filters help you narrow down your choices based on budget, quality, and brand preference.
-    </p>
-    <p>
-      Save time and money by finding the best deals without the hassle of searching multiple websites individually.
-    </p>
+    <AdviceTitle>Finding the Right Gear Can Be Tough</AdviceTitle>
+    <AdviceParagraph>
+      Choosing the right gear for a triathlon can be overwhelming. With countless options available, it’s often hard to know where to begin. 
+      However, having the <HighlightText>right gear</HighlightText> can significantly enhance your performance and comfort during training 
+      and on race day.
+    </AdviceParagraph>
+    <AdviceParagraph>
+      That’s why we’ve created this platform to simplify the process. By searching through multiple websites simultaneously, we provide a 
+      comprehensive comparison of prices and specifications, all in one convenient location. Our filters allow you to narrow down your 
+      options based on your budget, preferred quality, and favorite brands.
+    </AdviceParagraph>
+    <AdviceParagraph>
+      Save both time and money by finding the <HighlightText>best deals</HighlightText> without the hassle of navigating numerous websites 
+      individually. Let us help you make the right choice with ease and confidence.
+    </AdviceParagraph>
   </AdviceContainer>
 );
 

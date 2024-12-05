@@ -1,0 +1,101 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .signup-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .progress-tracker {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.4s ease;
+  }
+  
+  .progress-text {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  
+  .step-section {
+    width: 100%;
+    text-align: left;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .race-selector {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .race-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .race-card.selected,
+  .race-card:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.05);
+  }
+  
+  .checklist {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checklist-item {
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  .checklist-item.checked {
+    color: #4caf50;
+    text-decoration: line-through;
+  }
+  
+  .training-panel {
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .faq-section details {
+    margin-top: 10px;
+  }
+  
+  .faq-section summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  

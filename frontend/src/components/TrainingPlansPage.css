@@ -1,0 +1,162 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+  }
+  
+  .training-plans {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .training-header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(90deg, #1d3557, #457b9d);
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  .training-header h1 {
+    font-size: 2.8em;
+  }
+  
+  .training-header p {
+    font-size: 1.2em;
+  }
+  
+  /* Training Info Section */
+  .training-info {
+    background: #f1faee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .training-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1d3557;
+  }
+  
+  .training-info p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .training-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .training-info ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .training-info ul li::before {
+    content: '✔';
+    color: #457b9d;
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+  }
+  
+  /* Event Plans Section */
+  .event-plans h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1d3557;
+  }
+  
+  .event-plan {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-plan h3 {
+    font-size: 1.8em;
+    color: #1d3557;
+  }
+  
+  .event-plan p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .plan-calendar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .calendar-day {
+    background: #f1faee;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-day strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #457b9d;
+  }
+  
+  /* Resources Section */
+  .resources {
+    background: #f1faee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resources h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1d3557;
+  }
+  
+  .resources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resources ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .resources ul li a {
+    text-decoration: none;
+    color: #457b9d;
+    transition: color 0.3s ease;
+  }
+  
+  .resources ul li a:hover {
+    color: #1d3557;
+  }
+  
+  /* Footer */
+  .training-footer {
+    text-align: center;
+    padding: 20px;
+    background: #1d3557;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
